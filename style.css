@@ -1,0 +1,115 @@
+body {
+ background-image: url('./images/pattern-background-desktop.svg');
+ background-repeat: no-repeat;
+ font-family: 'Red Hat Display';
+ background-attachment: fixed;
+ background-size: contain;
+ background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+ background-color: white;
+ margin-top: 2em;
+ border-radius: 20px 20px 0px 0px;
+}
+
+.text-content {
+ text-align: center;
+ padding: 7%;
+}
+
+.title {
+ margin-top: 0px;
+ font-weight: 900;
+ color: hsl(223, 47%, 23%);
+ font-size: 32px;
+}
+
+.text-content p.subtitle {
+ color: #7a7373;
+ margin-bottom: 25px;
+ margin-left: 23px;
+ margin-right: 23px;
+ margin-top: 0px;
+}
+
+.plan-box {
+ background-color: hsl(225, 100%, 98%);
+ border-radius: 12px;
+ display: flex;
+ padding: 25px;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.plan-box a {
+ font-weight: 900;
+}
+
+.plan-box a:hover {
+ color: hsl(224, 23%, 55%);
+}
+
+.plan-box-left {
+ display: flex;
+ align-items: center;
+ text-align: left;
+}
+
+.plan-box-left div {
+ margin-left: 20px;
+}
+
+.plan-box-left div p {
+ color: #8d8686;
+}
+
+.plan-box-left div h5 {
+ margin-bottom: 12px;
+ margin-top: 0px;
+ font-weight: 900;
+ font-size: 15.5px;
+}
+
+.plan-box-left p {
+ margin: 0px;
+}
+
+.hero img {
+ border-radius: 20px 20px 0px 0px;
+}
+
+.wrapper {
+ contain: layout inline-size;
+}
+
+a.proceed-btn {
+ display: block;
+ color: white;
+ text-decoration: none;
+ background-color: hsl(245, 75%, 52%);
+ padding: 16px;
+ margin-bottom: 25px;
+ border-radius: 10px;
+}
+
+a.proceed-btn:hover {
+ background-color: hsl(224, 23%, 55%);
+}
+
+a.cancel-btn {
+ font-weight: 900;
+}
+
+a.cancel-btn:hover {
+ color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 400px) {
+ .container {
+  width: 450px;
+  margin: 0 auto 1rem;
+ }
+} 
+
+
